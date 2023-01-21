@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+
+.App{
+  
+  background-color: white;
+}
+.NavContent {
+ 
+  border-radius: 10px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.LogoStyle {
+  width: 81px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 50px;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Btn1 {
+  border-radius: 20px;
+  border-width: 2px;
+
+  border-style: solid;
+  border-color: #eceeef;
+  background-color: white;
+  padding: 5px;
+  margin-top: 10px;
+  color:#f40000 ;
+  font-weight: 700;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 5px;
+}
+.Btn2 {
+  border-radius: 20px;
+  border-width: 2px;
+
+  border-style: solid;
+  border-color: #f40000;
+  background-color: #f40000;
+  padding: 4px;
+  margin-top: 10PX;
+  color:white ;
+  font-weight: 700;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.Btn3 {
+  border-radius: 20px;
+  border-width: 2px;
+
+  border-style: solid;
+  border-color: #eceeef;
+  background-color: black;
+  padding: 5px;
+  margin-top: 10px;
+  color:white ;
+  font-weight: 700;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 5px;
+}
+.Category {
+  border-radius: 10px;
+  border-width: 2px;
+  border-color:#eceeef;
+  border-style: solid;
+ 
+ margin:4px;
+
+
+ align-self: center;
+ padding: 0px;
+ justify-content: center;
+ align-items: center;
+height: 32px;
+ 
+}
+.FlexHeader{
+  max-width: 100vw;
+  align-self: center;
+  overflow:auto;
+  margin-right: 4%;
+  margin-left: 4%;
+  white-space: nowrap;
+  overflow-y: hidden;
+}
+.Category:hover{
+  background-color: gray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
