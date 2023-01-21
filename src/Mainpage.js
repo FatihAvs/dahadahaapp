@@ -4,7 +4,7 @@ const Mainpage = (props) => {
 
 
     return(
-        <div><div class="d-flex flex-nowrap FlexHeader">
+        <div ><div class="d-flex flex-nowrap FlexHeader  ">
     {props.tagList?.map(x=>{
       return ( <button onClick={()=>props.setSeciliKategori(x?.Name)} className="row Category" style={props.seciliKategori==x?.Name ? {backgroundColor:"#0081C9"}  : {backgroundColor:"#eceeef"} }><div className="col" ><p style={{fontSize:11,display:"inline-block"}}><img  style={{borderRadius:8,height:18,marginRight:3}} src={x?.IconUrl}></img>{x?.Name}</p></div></button>)
     })}

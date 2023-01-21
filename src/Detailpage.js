@@ -28,10 +28,10 @@ const Detailpage  = () =>{
 {loading==true ? <div class="spinner-border" role="status">
   <span class="sr-only"></span>
 </div> : <span><div className="row">
-<div className="col">
+<div className="col-7">
 
-<img src={promotion?.ImageUrl} style={{width:380,borderRadius:20,borderBottomLeftRadius:60}}></img>
-<img src={promotion?.BrandIconUrl} style={{width:50,marginLeft:-360,marginTop:250}}></img>
+<img src={promotion?.ImageUrl}  style={{borderRadius:20,borderBottomLeftRadius:150,maxHeight:"100%",height:"auto"}}></img>
+<img src={promotion?.BrandIconUrl} style={{width:100,marginLeft:-770,marginTop:550}}></img>
 </div>
 <div  className="col">
 
@@ -39,7 +39,7 @@ const Detailpage  = () =>{
 </div>
 
 
-</div>{katildi==true ? <button disabled={true}  className="col-md-auto" style={{position:"fixed",bottom:10,left:"5%",right:"5%",backgroundColor:"#86C8BC",color:"white",borderRadius:30,borderWidth:0,padding:10}}>Katıldınız</button> : <button onClick={()=>setKatildi(true)}  className="col-md-auto" style={{position:"fixed",bottom:10,left:"5%",right:"5%",backgroundColor:"#F40000",color:"white",borderRadius:30,borderWidth:0,padding:10}}>Hemen Katıl</button>}</span>  }
+</div>{katildi==true ? <button disabled={true}   style={{position:"fixed",bottom:50,left:"5%",right:"5%",backgroundColor:"#86C8BC",color:"white",borderRadius:30,borderWidth:0,padding:10}}>Katıldınız</button> : <button onClick={()=>setKatildi(true)}  className="col-md-auto" style={{position:"fixed",bottom:50,left:"5%",right:"5%",backgroundColor:"#F40000",color:"white",borderRadius:30,borderWidth:0,padding:10}}>Hemen Katıl</button>}</span>  }
 </div>
 
     )

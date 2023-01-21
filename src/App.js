@@ -35,9 +35,9 @@ useEffect(()=>{
 }}).then(response=>response.json()).then(response=>setPromotions(response)).catch(err=>console.log(err))
 },[])
   return (
-    <div className="App">
+    <div className="App container  justify-content-center">
       <ul className="nav row"  >
- 
+  
    <div className="col-8"><Link to="/"><img src={require('./images/Daha_Daha.png')} alt="" className="nav-link LogoStyle" ></img></Link></div>
 
   <div className="col-4"><button className='Btn1'><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
