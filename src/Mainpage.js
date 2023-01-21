@@ -15,7 +15,7 @@ const Mainpage = (props) => {
 </div>
 <div className="container" style={{marginTop:10}}>
 <div className="col-2"></div>
-<div className="col-11" ><props.Carousel   showThumbs={false}>
+<div className="col-11" style={{height:300,width:300}} ><props.Carousel showStatus={false}  showThumbs={false}>
 {props.promotions?.map(x=>{
   return (
     <Link to={`/campaign/${x?.SeoName}/${x?.Id}`} style={{textDecoration:"none"}}><div  style={{height:300,width:300,backgroundColor:"white",borderRadius:10}}>            

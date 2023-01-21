@@ -32,7 +32,7 @@ useEffect(()=>{
       "content-type": "application/json",
       "X-Country-Id" :"TR",
       "X-Language-Id" :"TR"
-}}).then(response=>response.json()).then(response=>setPromotions(response)).catch(err=>console.log(err))
+}}).then(response=>response.json()).then(response=>{setPromotions(response);console.log(response)}).catch(err=>console.log(err))
 },[])
   return (
     <div className="App container  justify-content-center">
